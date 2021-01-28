@@ -31,6 +31,12 @@ docker exec jd1 bash -c 'set -o allexport; source /all.env; source /jd-scripts-d
 ```
 确认可以签到等操作后，即可每天定时执行脚本。
 
+### 再次获取cookie
+通过docker获取cookie
+```sh
+docker exec jd1 bash -c 'cd /scripts; node getJDCookie.js'
+```
+
 ### 获取助力码
 请确保运行了几个小时（最好一天）之后再运行此脚本获取助力码
 ```sh
@@ -62,3 +68,4 @@ docker-compose logs
 ```sh
 docker-compose down
 ```
+"# jd-scripts-docker" 
