@@ -20,7 +20,7 @@ trap 'cp /jd-scripts-docker/sync.sh /sync' Exit
   git checkout .
   git pull
 ) || {
-  git clone --branch=master https://gitee.com/lxk0301/jd_scripts.git /scripts_tmp
+  git clone --branch=master https://gitee.com/hsuna/jd_scripts.git /scripts_tmp
   [ -d /scripts_tmp ] && {
     rm -rf /scripts
     mv /scripts_tmp /scripts
@@ -33,7 +33,7 @@ trap 'cp /jd-scripts-docker/sync.sh /sync' Exit
   git checkout .
   git pull
 ) || {
-  git clone --branch=main https://github.com/chinnkarahoi/Loon.git /loon_tmp
+  git clone --branch=main https://gitee.com/hsuna/Loon.git /loon_tmp
   [ -d /loon_tmp ] && {
     rm -rf /loon
     mv /loon_tmp /loon

@@ -12,8 +12,8 @@ cd jd-scripts-docker
 访问[网页端](https://plogin.m.jd.com/login/login) 手机号登录获取cookie中的pt_key, pt_pin填入项目目录下的./docker-compose.yml文件的`JD_COOKIE`,  
 (此方式cookie有效时长大概31天，其他登录方式比较短)。
 更详细的获取方法可以看
-[浏览器获取cookie教程](https://gitee.com/lxk0301/jd_scripts/blob/master/backUp/GetJdCookie.md)或者
-[插件获取cookie教程](https://gitee.com/lxk0301/jd_scripts/blob/master/backUp/GetJdCookie2.md)
+[浏览器获取cookie教程](https://gitee.com/hsuna/jd_scripts/blob/master/backUp/GetJdCookie.md)或者
+[插件获取cookie教程](https://gitee.com/hsuna/jd_scripts/blob/master/backUp/GetJdCookie2.md)
 ### 微信推送（可选）
 cookie失效推送[server酱的微信通知](http://sc.ftqq.com/3.version)，获取到SCKEY后填到./all.env的PUSH_KEY。
 ### 启动
